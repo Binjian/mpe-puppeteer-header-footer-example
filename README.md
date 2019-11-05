@@ -14,8 +14,8 @@
   * displayHeaderFooter: true
   * headerTemplate: html fragment
   * footerTemplate: html fragment
-  * Only inline style supported
-* convert image to base64
+* **Only inline style supported (ignored css files)**
+  * https://github.com/GoogleChrome/puppeteer/issues/4254
+* **Only base64 image or online image supported**
   * https://github.com/GoogleChrome/puppeteer/issues/2443
   * https://atom.io/packages/atom-image-resize
-
